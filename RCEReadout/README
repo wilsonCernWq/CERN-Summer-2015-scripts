@@ -1,0 +1,11 @@
+Wu Qi changes adapted to standard Allpix output format. 
+
+INSTALLATION:
+
+1) Edit src/Endianness.h to define either little endian or big endian depeding on the processor
+2) Change the NUMPLANES definition in RCEReadOut.cpp to match the number of FEI4s read out during data taking
+2) make
+
+Try this to see input formats:
+
+./RCEReadOut

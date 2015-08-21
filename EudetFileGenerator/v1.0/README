@@ -1,0 +1,6 @@
+This is a script to run allpix simulation + automatically backup macro and log events
+
+Usage:
+	change output path in the script to whatever you like
+	run allpix_new instead of allpix
+	put the input marco as first argument and everything else for allpix after that

@@ -1,0 +1,31 @@
+<deltaX> 150 <deltaX>
+<Bd> 
+  min = 10.0,
+  max = 100.0,
+  rank = 41,
+  func = min + x * (max - min) / (rank-1)
+<Bd>
+<Fd> 37 <Fd>
+<dutPos> 340 <dutPos>
+
+<detPos0> 340 - Bd - 2 * deltaX <detPos0>
+<detPos1> 
+  dutPos - Bd - deltaX 
+<detPos1>
+<detPos2> 
+  dutPos - Bd 
+<detPos2>
+<detPos3> 
+  dutPos + Fd
+<detPos3>
+<detPos4> 
+  dutPos + Fd + deltaX 
+<detPos4>
+<detPos5> 
+  dutPos + Fd + 2 * deltaX 
+<detPos5>
+
+<outDir> "./EUTelescopeFiles/run-bd-desy-" + str(NODE_NUM) <outDir>
+<SPS>"#"<SPS>
+<DESY>""<DESY>
+<frames>400000<frames>

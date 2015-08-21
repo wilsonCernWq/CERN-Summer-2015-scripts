@@ -1,0 +1,18 @@
+Instruction for version 2
+	    usage: <script-name> <output-sample> <variable-definitions> <output-prefix> <output-suffix>
+	    example:
+		./proc_macro.py qiwu_test.in var_defs.xml output/gear .xml
+
+In variable definition you can define functions (including constant function) like this:
+<var>
+  local_var = ... , (avoid rename global variable cause it would overwrite them)
+  rank = ... , (default = 1)
+  func = ... , (check local scope first then global scope)
+<var>
+
+or a short cut for constants
+
+<var> ... <var>
+
+The script could replace the variables defined in sample file by their values and generate N0 * N1 * ... NN outputs with name: <prefix>-(num)-<suffix>, where {Ni} are the ranks of all variables. The program will loop all the possible integer 'x' value according to their ranks.
+  

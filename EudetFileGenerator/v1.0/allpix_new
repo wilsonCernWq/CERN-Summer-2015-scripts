@@ -1,0 +1,40 @@
+#!/bin/bash
+echo "********************************************************"
+echo "  Describe your modifications  "
+echo "********************************************************"
+read commit
+
+# constants
+out_path=${WORK}/Allpix/allpix/EUTelescopeFiles
+counter=-2
+
+# count number of existing run
+for i in $(find ${out_path} -maxdepth 1 -type d)
+do
+#echo $i
+let counter=${counter}+1
+done
+echo "simulation number ${counter}"
+
+# parse inputs
+i_file=$1
+o_file="${out_path}/run-${counter}-qiwu"
+shift
+
+echo $o_file
+
+# build filename 
+proc_allpix_macro.py ${i_file} ${o_file}.in ofpath "['"${o_file}"']"
+allpix ${o_file}.in "$@"
+
+# record commitment
+the_date=$(date)
+cat >> ${out_path}/README << EOF
+>------ ${the_date} ------
+run number: ${counter}
+input name: ${o_file}.in
+
+${commit}
+
+>------ ${the_date} ------
+EOF

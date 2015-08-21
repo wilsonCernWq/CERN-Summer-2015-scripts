@@ -1,0 +1,95 @@
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/qiwu/687177000> on <b657999c48.cern.ch>
+
+Error in <TGClient::TGClient>: can't open display "lxplus0047.cern.ch:10.0", switching to batch mode...
+ In case you run from a remote ssh session, reconnect with ssh -Y
+Error in <TFile::ReadBuffer>: error reading all requested bytes from file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/tbtrackrun000016.root, got 63 of 300
+Error in <TFile::ReadBuffer>: error reading all requested bytes from file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/tbtrackrun000016.root, got 0 of 248
+Error in <TFile::Init>: cannot read directory info of file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/tbtrackrun000016.root
+Using Timepix or Timepix3 detector
+Opening /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/tbtrackrun000016.root
+Reading in tbtrack mode
+Traceback (most recent call last):
+  File "pyEudetReconstructionOnly.py", line 125, in <module>
+    aDataSet = EudetData("%s/tbtrackrun%06i.root"%(input_folder,RunNumber),50000.0,edge_width,1,"tbtrack")
+  File "/afs/cern.ch/work/q/qiwu/PYEUTANA/mathieu/pyEudetAnalysis/EudetData.py", line 115, in __init__
+    self.p_nEntries = self.pixelTree.GetEntries()
+AttributeError: 'TObject' object has no attribute 'GetEntries'
+mkdir: cannot create directory `/afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run16': File exists
+Error in <TGClient::TGClient>: can't open display "lxplus0047.cern.ch:10.0", switching to batch mode...
+ In case you run from a remote ssh session, reconnect with ssh -Y
+Error in <TFile::ReadBuffer>: error reading all requested bytes from file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/tbtrackrun000016.root, got 63 of 300
+Error in <TFile::ReadBuffer>: error reading all requested bytes from file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/tbtrackrun000016.root, got 0 of 248
+Error in <TFile::Init>: cannot read directory info of file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/tbtrackrun000016.root
+Using Timepix or Timepix3 detector
+Opening /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/tbtrackrun000016.root
+Reading in tbtrack mode
+Traceback (most recent call last):
+  File "pyEudetReconstructionOnly.py", line 125, in <module>
+    aDataSet = EudetData("%s/tbtrackrun%06i.root"%(input_folder,RunNumber),50000.0,edge_width,1,"tbtrack")
+  File "/afs/cern.ch/work/q/qiwu/PYEUTANA/mathieu/pyEudetAnalysis/EudetData.py", line 115, in __init__
+    self.p_nEntries = self.pixelTree.GetEntries()
+AttributeError: 'TObject' object has no attribute 'GetEntries'
+mkdir: cannot create directory `/afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run16': File exists
+Error in <TGClient::TGClient>: can't open display "lxplus0047.cern.ch:10.0", switching to batch mode...
+ In case you run from a remote ssh session, reconnect with ssh -Y
+Error in <TFile::ReadBuffer>: error reading all requested bytes from file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/tbtrackrun000016.root, got 63 of 300
+Error in <TFile::ReadBuffer>: error reading all requested bytes from file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/tbtrackrun000016.root, got 0 of 248
+Error in <TFile::Init>: cannot read directory info of file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/tbtrackrun000016.root
+Using Timepix or Timepix3 detector
+Opening /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/tbtrackrun000016.root
+Reading in tbtrack mode
+Traceback (most recent call last):
+  File "pyEudetReconstructionOnly.py", line 125, in <module>
+    aDataSet = EudetData("%s/tbtrackrun%06i.root"%(input_folder,RunNumber),50000.0,edge_width,1,"tbtrack")
+  File "/afs/cern.ch/work/q/qiwu/PYEUTANA/mathieu/pyEudetAnalysis/EudetData.py", line 115, in __init__
+    self.p_nEntries = self.pixelTree.GetEntries()
+AttributeError: 'TObject' object has no attribute 'GetEntries'
+mkdir: cannot create directory `/afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run16': File exists
+mkdir: cannot create directory `/afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run16/QWeighted': File exists
+Error in <TGClient::TGClient>: can't open display "lxplus0047.cern.ch:10.0", switching to batch mode...
+ In case you run from a remote ssh session, reconnect with ssh -Y
+Error in <TFile::TFile>: file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run16/QWeighted/pyEudetNtuple_run16_QWeighted.root does not exist
+Using Timepix or Timepix3 detector
+Opening /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run16/QWeighted/pyEudetNtuple_run16_QWeighted.root
+Reading in pyEudetNTuple mode
+Traceback (most recent call last):
+  File "pyEudetAnalysisOnly.py", line 151, in <module>
+    aDataSet = EudetData("%s/Run%i/%s/pyEudetNtuple_run%i_%s.root"%(input_folder,RunNumber,method_name,RunNumber,method_name),50000.0,edge_width,1,RunNumber,"pyEudetNTuple")
+  File "/afs/cern.ch/work/q/qiwu/PYEUTANA/mathieu/pyEudetAnalysis/EudetData.py", line 121, in __init__
+    self.TrackTree.Print()
+ReferenceError: attempt to access a null-pointer
+mkdir: cannot create directory `/afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run16': File exists
+mkdir: cannot create directory `/afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run16/EtaCorrection': File exists
+Error in <TGClient::TGClient>: can't open display "lxplus0047.cern.ch:10.0", switching to batch mode...
+ In case you run from a remote ssh session, reconnect with ssh -Y
+Error in <TFile::TFile>: file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run16/EtaCorrection/pyEudetNtuple_run16_EtaCorrection.root does not exist
+Using Timepix or Timepix3 detector
+Opening /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run16/EtaCorrection/pyEudetNtuple_run16_EtaCorrection.root
+Reading in pyEudetNTuple mode
+Traceback (most recent call last):
+  File "pyEudetAnalysisOnly.py", line 151, in <module>
+    aDataSet = EudetData("%s/Run%i/%s/pyEudetNtuple_run%i_%s.root"%(input_folder,RunNumber,method_name,RunNumber,method_name),50000.0,edge_width,1,RunNumber,"pyEudetNTuple")
+  File "/afs/cern.ch/work/q/qiwu/PYEUTANA/mathieu/pyEudetAnalysis/EudetData.py", line 121, in __init__
+    self.TrackTree.Print()
+ReferenceError: attempt to access a null-pointer
+mkdir: cannot create directory `/afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run16': File exists
+mkdir: cannot create directory `/afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run16/DigitalCentroid': File exists
+Error in <TGClient::TGClient>: can't open display "lxplus0047.cern.ch:10.0", switching to batch mode...
+ In case you run from a remote ssh session, reconnect with ssh -Y
+Error in <TFile::TFile>: file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run16/DigitalCentroid/pyEudetNtuple_run16_DigitalCentroid.root does not exist
+Using Timepix or Timepix3 detector
+Opening /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run16/DigitalCentroid/pyEudetNtuple_run16_DigitalCentroid.root
+Reading in pyEudetNTuple mode
+Traceback (most recent call last):
+  File "pyEudetAnalysisOnly.py", line 151, in <module>
+    aDataSet = EudetData("%s/Run%i/%s/pyEudetNtuple_run%i_%s.root"%(input_folder,RunNumber,method_name,RunNumber,method_name),50000.0,edge_width,1,RunNumber,"pyEudetNTuple")
+  File "/afs/cern.ch/work/q/qiwu/PYEUTANA/mathieu/pyEudetAnalysis/EudetData.py", line 121, in __init__
+    self.TrackTree.Print()
+ReferenceError: attempt to access a null-pointer
+
+Job finished at Thu Aug 13 00:41:54 CEST 2015 on node 
+ under linux version Scientific Linux CERN SLC release 6.7 (Carbon)
+
+CERN statistics: This process used approximately : 0:12:37 KSI2K hours (757 KSI2K seconds)
+                 This process corresponds to     : 0:49:12 HS06  hours (2952 HS06  seconds)

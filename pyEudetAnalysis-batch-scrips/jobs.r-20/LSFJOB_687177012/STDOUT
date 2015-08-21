@@ -1,0 +1,711 @@
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/qiwu/687177012> on <b6189d3b05.cern.ch>
+
+Error in <TGClient::TGClient>: can't open display "lxplus0047.cern.ch:10.0", switching to batch mode...
+ In case you run from a remote ssh session, reconnect with ssh -Y
+Info in <TCanvas::SaveAs>: ROOT file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22/Chi2_run000022.root has been created
+Info in <TCanvas::SaveAs>: ROOT file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22/Chi2ndof_run000022.root has been created
+Info in <TH1F::SaveAs>: ROOT file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22/PixelMapRepeats_run000022.root has been created
+Info in <TCanvas::SaveAs>: ROOT file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22/NHit_pixels_run000022.root has been created
+Info in <TCanvas::SaveAs>: ROOT file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22/Hit_pixels_run000022.root has been created
+Info in <TCanvas::SaveAs>: ROOT file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22/Hot_pixels_run000022.root has been created
+Info in <TCanvas::SaveAs>: ROOT file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22/Firing_frequency_run000022.root has been created
+Using Timepix or Timepix3 detector
+Opening /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/tbtrackrun000022.root
+Reading in tbtrack mode
+Cutting at Chi2 = 15.000000
+Running on run 22, with Method QWeighted, on 165650 Events
+ [Hot Pixel Finder] Parsing event 0
+ [Hot Pixel Finder] Parsing event 10000
+ [Hot Pixel Finder] Parsing event 20000
+ [Hot Pixel Finder] Parsing event 30000
+ [Hot Pixel Finder] Parsing event 40000
+ [Hot Pixel Finder] Parsing event 50000
+ [Hot Pixel Finder] Parsing event 60000
+ [Hot Pixel Finder] Parsing event 70000
+ [Hot Pixel Finder] Parsing event 80000
+ [Hot Pixel Finder] Parsing event 90000
+ [Hot Pixel Finder] Parsing event 100000
+ [Hot Pixel Finder] Parsing event 110000
+ [Hot Pixel Finder] Parsing event 120000
+ [Hot Pixel Finder] Parsing event 130000
+ [Hot Pixel Finder] Parsing event 140000
+ [Hot Pixel Finder] Parsing event 150000
+ [Hot Pixel Finder] Parsing event 160000
+Ran over 165650 events, found 164798 unique pixel maps
+##### Hot Pixel Report #####
+ 0 Hot pixel found at  : 
+[]
+############################
+Event 0
+Elapsed time/1000 Event : 4.967170 s
+Event 1000
+Elapsed time/1000 Event : 5.192334 s
+Event 2000
+Elapsed time/1000 Event : 16.317523 s
+Event 3000
+Elapsed time/1000 Event : 5.251560 s
+Event 4000
+Elapsed time/1000 Event : 4.527746 s
+Event 5000
+Elapsed time/1000 Event : 5.580660 s
+Event 6000
+Elapsed time/1000 Event : 7.288888 s
+Event 7000
+Elapsed time/1000 Event : 12.356555 s
+Event 8000
+Elapsed time/1000 Event : 3.114744 s
+Event 9000
+Elapsed time/1000 Event : 2.723332 s
+Event 10000
+Elapsed time/1000 Event : 4.961877 s
+Event 11000
+Elapsed time/1000 Event : 4.102773 s
+Event 12000
+Elapsed time/1000 Event : 3.450532 s
+Event 13000
+Elapsed time/1000 Event : 14.299523 s
+Event 14000
+Elapsed time/1000 Event : 5.086135 s
+Event 15000
+Elapsed time/1000 Event : 6.609199 s
+Event 16000
+Elapsed time/1000 Event : 6.870997 s
+Event 17000
+Elapsed time/1000 Event : 8.511219 s
+Event 18000
+Elapsed time/1000 Event : 9.206258 s
+Event 19000
+Elapsed time/1000 Event : 68.864610 s
+Event 20000
+Elapsed time/1000 Event : 4.682883 s
+Event 21000
+Elapsed time/1000 Event : 5.427552 s
+Event 22000
+Elapsed time/1000 Event : 5.028141 s
+Event 23000
+Elapsed time/1000 Event : 6.594928 s
+Event 24000
+Elapsed time/1000 Event : 76.531466 s
+Event 25000
+Elapsed time/1000 Event : 4.561900 s
+Event 26000
+Elapsed time/1000 Event : 5.509846 s
+Event 27000
+Elapsed time/1000 Event : 4.717492 s
+Event 28000
+Elapsed time/1000 Event : 6.423038 s
+Event 29000
+Elapsed time/1000 Event : 4.564407 s
+Event 30000
+Elapsed time/1000 Event : 80.252214 s
+Event 31000
+Elapsed time/1000 Event : 4.193979 s
+Event 32000
+Elapsed time/1000 Event : 4.734310 s
+Event 33000
+Elapsed time/1000 Event : 4.731978 s
+Event 34000
+Elapsed time/1000 Event : 3.024897 s
+Event 35000
+Elapsed time/1000 Event : 3.076237 s
+Event 36000
+Elapsed time/1000 Event : 47.370046 s
+Event 37000
+Elapsed time/1000 Event : 5.978782 s
+Event 38000
+Elapsed time/1000 Event : 7.096922 s
+Event 39000
+Elapsed time/1000 Event : 5.834005 s
+Event 40000
+Elapsed time/1000 Event : 5.023991 s
+Event 41000
+Elapsed time/1000 Event : 5.554424 s
+Event 42000
+Elapsed time/1000 Event : 141.986800 s
+Event 43000
+Elapsed time/1000 Event : 9.129738 s
+Event 44000
+Elapsed time/1000 Event : 7.303902 s
+Event 45000
+Elapsed time/1000 Event : 3.366974 s
+Event 46000
+Elapsed time/1000 Event : 3.510127 s
+Event 47000
+Elapsed time/1000 Event : 58.363226 s
+Event 48000
+Elapsed time/1000 Event : 8.622739 s
+Event 49000
+Elapsed time/1000 Event : 5.371053 s
+Event 50000
+Elapsed time/1000 Event : 5.426554 s
+Event 51000
+Elapsed time/1000 Event : 4.142920 s
+Event 52000
+Elapsed time/1000 Event : 3.672082 s
+Event 53000
+Elapsed time/1000 Event : 180.044187 s
+Event 54000
+Elapsed time/1000 Event : 3.731549 s
+Event 55000
+Elapsed time/1000 Event : 4.696963 s
+Event 56000
+Elapsed time/1000 Event : 4.921448 s
+Event 57000
+Elapsed time/1000 Event : 5.997986 s
+Event 58000
+Elapsed time/1000 Event : 8.874825 s
+Event 59000
+Elapsed time/1000 Event : 303.209414 s
+Event 60000
+Elapsed time/1000 Event : 4.254106 s
+Event 61000
+Elapsed time/1000 Event : 4.241863 s
+Event 62000
+Elapsed time/1000 Event : 4.209689 s
+Event 63000
+Elapsed time/1000 Event : 4.488792 s
+Event 64000
+Elapsed time/1000 Event : 4.306032 s
+Event 65000
+Elapsed time/1000 Event : 260.240977 s
+Event 66000
+Elapsed time/1000 Event : 4.489183 s
+Event 67000
+Elapsed time/1000 Event : 3.384144 s
+Event 68000
+Elapsed time/1000 Event : 3.409301 s
+Event 69000
+Elapsed time/1000 Event : 3.350229 s
+Event 70000
+Elapsed time/1000 Event : 299.803847 s
+Event 71000
+Elapsed time/1000 Event : 4.322322 s
+Event 72000
+Elapsed time/1000 Event : 4.998416 s
+Event 73000
+Elapsed time/1000 Event : 4.414312 s
+Event 74000
+Elapsed time/1000 Event : 5.091452 s
+Event 75000
+Elapsed time/1000 Event : 6.305556 s
+Event 76000
+Elapsed time/1000 Event : 353.307536 s
+Event 77000
+Elapsed time/1000 Event : 5.704458 s
+Event 78000
+Elapsed time/1000 Event : 8.236842 s
+Event 79000
+Elapsed time/1000 Event : 9.378957 s
+Event 80000
+Elapsed time/1000 Event : 3.413799 s
+Event 81000
+Elapsed time/1000 Event : 4.756691 s
+Event 82000
+Elapsed time/1000 Event : 368.970437 s
+Event 83000
+Elapsed time/1000 Event : 3.305500 s
+Event 84000
+Elapsed time/1000 Event : 3.709522 s
+Event 85000
+Elapsed time/1000 Event : 4.576483 s
+Event 86000
+Elapsed time/1000 Event : 6.000189 s
+Event 87000
+Elapsed time/1000 Event : 390.132134 s
+Event 88000
+Elapsed time/1000 Event : 8.277218 s
+Event 89000
+Elapsed time/1000 Event : 4.789309 s
+Event 90000
+Elapsed time/1000 Event : 11.395792 s
+Event 91000
+Elapsed time/1000 Event : 6.361357 s
+Event 92000
+Elapsed time/1000 Event : 13.362057 s
+Event 93000
+Elapsed time/1000 Event : 380.993567 s
+Event 94000
+Elapsed time/1000 Event : 7.087649 s
+Event 95000
+Elapsed time/1000 Event : 2.616778 s
+Event 96000
+Elapsed time/1000 Event : 2.892555 s
+Event 97000
+Elapsed time/1000 Event : 9.705519 s
+Event 98000
+Elapsed time/1000 Event : 3.517986 s
+Event 99000
+Elapsed time/1000 Event : 350.254846 s
+Event 100000
+Elapsed time/1000 Event : 2.882561 s
+Event 101000
+Elapsed time/1000 Event : 3.533087 s
+Event 102000
+Elapsed time/1000 Event : 3.613646 s
+Event 103000
+Elapsed time/1000 Event : 3.479142 s
+Event 104000
+Elapsed time/1000 Event : 3.915985 s
+Event 105000
+Elapsed time/1000 Event : 378.928032 s
+Event 106000
+Elapsed time/1000 Event : 3.889991 s
+Event 107000
+Elapsed time/1000 Event : 3.698865 s
+Event 108000
+Elapsed time/1000 Event : 3.490594 s
+Event 109000
+Elapsed time/1000 Event : 2.870463 s
+Event 110000
+Elapsed time/1000 Event : 348.575206 s
+Event 111000
+Elapsed time/1000 Event : 3.073880 s
+Event 112000
+Elapsed time/1000 Event : 2.863291 s
+Event 113000
+Elapsed time/1000 Event : 3.452694 s
+Event 114000
+Elapsed time/1000 Event : 4.119294 s
+Event 115000
+Elapsed time/1000 Event : 3.699236 s
+Event 116000
+Elapsed time/1000 Event : 399.671991 s
+Event 117000
+Elapsed time/1000 Event : 2.906739 s
+Event 118000
+Elapsed time/1000 Event : 3.280353 s
+Event 119000
+Elapsed time/1000 Event : 3.554851 s
+Event 120000
+Elapsed time/1000 Event : 2.917575 s
+Event 121000
+Elapsed time/1000 Event : 3.224445 s
+Event 122000
+Elapsed time/1000 Event : 453.779026 s
+Event 123000
+Elapsed time/1000 Event : 4.962392 s
+Event 124000
+Elapsed time/1000 Event : 4.354512 s
+Event 125000
+Elapsed time/1000 Event : 3.964644 s
+Event 126000
+Elapsed time/1000 Event : 5.154687 s
+Event 127000
+Elapsed time/1000 Event : 5.250405 s
+Event 128000
+Elapsed time/1000 Event : 500.285386 s
+Event 129000
+Elapsed time/1000 Event : 3.480601 s
+Event 130000
+Elapsed time/1000 Event : 3.220035 s
+Event 131000
+Elapsed time/1000 Event : 5.043639 s
+Event 132000
+Elapsed time/1000 Event : 3.878568 s
+Event 133000
+Elapsed time/1000 Event : 509.841192 s
+Event 134000
+Elapsed time/1000 Event : 4.152884 s
+Event 135000
+Elapsed time/1000 Event : 5.407321 s
+Event 136000
+Elapsed time/1000 Event : 4.751873 s
+Event 137000
+Elapsed time/1000 Event : 5.036711 s
+Event 138000
+Elapsed time/1000 Event : 5.886243 s
+Event 139000
+Elapsed time/1000 Event : 557.815804 s
+Event 140000
+Elapsed time/1000 Event : 3.288458 s
+Event 141000
+Elapsed time/1000 Event : 3.925934 s
+Event 142000
+Elapsed time/1000 Event : 3.204162 s
+Event 143000
+Elapsed time/1000 Event : 3.618840 s
+EventInfo in <TCanvas::Print>: pdf file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22/QWeighted/Cluster-track_dist.pdf has been created
+rm: cannot remove `/afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22/QWeighted/pyEudetNtuple_run22_QWeighted.root': No such file or directory
+ 144000
+Elapsed time/1000 Event : 3.322527 s
+Event 145000
+Elapsed time/1000 Event : 397.420458 s
+Event 146000
+Elapsed time/1000 Event : 3.529594 s
+Event 147000
+Elapsed time/1000 Event : 3.539708 s
+Event 148000
+Elapsed time/1000 Event : 3.024449 s
+Event 149000
+Elapsed time/1000 Event : 2.831072 s
+Event 150000
+Elapsed time/1000 Event : 342.875491 s
+Event 151000
+Elapsed time/1000 Event : 3.408668 s
+Event 152000
+Elapsed time/1000 Event : 3.275575 s
+Event 153000
+Elapsed time/1000 Event : 3.497537 s
+Event 154000
+Elapsed time/1000 Event : 3.116077 s
+Event 155000
+Elapsed time/1000 Event : 2.787788 s
+Event 156000
+Elapsed time/1000 Event : 384.387181 s
+Event 157000
+Elapsed time/1000 Event : 3.669323 s
+Event 158000
+Elapsed time/1000 Event : 3.160337 s
+Event 159000
+Elapsed time/1000 Event : 2.996306 s
+Event 160000
+Elapsed time/1000 Event : 2.629374 s
+Event 161000
+Elapsed time/1000 Event : 2.877112 s
+Event 162000
+Elapsed time/1000 Event : 446.375898 s
+Event 163000
+Elapsed time/1000 Event : 3.459225 s
+Event 164000
+Elapsed time/1000 Event : 4.798157 s
+Event 165000
+Elapsed time/1000 Event : 3.780132 s
+Found 156454 matched cluster
+Writing reconstructed data to /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22/QWeighted/pyEudetNtuple_run22_QWeighted.root
+mkdir: cannot create directory `/afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22': File exists
+Error in <TGClient::TGClient>: can't open display "lxplus0047.cern.ch:10.0", switching to batch mode...
+ In case you run from a remote ssh session, reconnect with ssh -Y
+Info in <TCanvas::SaveAs>: ROOT file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22/Chi2_run000022.root has been created
+Info in <TCanvas::SaveAs>: ROOT file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22/Chi2ndof_run000022.root has been created
+Info in <TH1F::SaveAs>: ROOT file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22/PixelMapRepeats_run000022.root has been created
+Info in <TCanvas::SaveAs>: ROOT file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22/NHit_pixels_run000022.root has been created
+Info in <TCanvas::SaveAs>: ROOT file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22/Hit_pixels_run000022.root has been created
+Info in <TCanvas::SaveAs>: ROOT file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22/Hot_pixels_run000022.root has been created
+Info in <TCanvas::SaveAs>: ROOT file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22/Firing_frequency_run000022.root has been created
+Using Timepix or Timepix3 detector
+Opening /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/tbtrackrun000022.root
+Reading in tbtrack mode
+Cutting at Chi2 = 15.000000
+Running on run 22, with Method EtaCorrection, on 165650 Events
+ [Hot Pixel Finder] Parsing event 0
+ [Hot Pixel Finder] Parsing event 10000
+ [Hot Pixel Finder] Parsing event 20000
+ [Hot Pixel Finder] Parsing event 30000
+ [Hot Pixel Finder] Parsing event 40000
+ [Hot Pixel Finder] Parsing event 50000
+ [Hot Pixel Finder] Parsing event 60000
+ [Hot Pixel Finder] Parsing event 70000
+ [Hot Pixel Finder] Parsing event 80000
+ [Hot Pixel Finder] Parsing event 90000
+ [Hot Pixel Finder] Parsing event 100000
+ [Hot Pixel Finder] Parsing event 110000
+ [Hot Pixel Finder] Parsing event 120000
+ [Hot Pixel Finder] Parsing event 130000
+ [Hot Pixel Finder] Parsing event 140000
+ [Hot Pixel Finder] Parsing event 150000
+ [Hot Pixel Finder] Parsing event 160000
+Ran over 165650 events, found 164798 unique pixel maps
+##### Hot Pixel Report #####
+ 0 Hot pixel found at  : 
+[]
+############################
+Event 0
+Elapsed time/1000 Event : 1.091790 s
+Event 1000
+Elapsed time/1000 Event : 2.382326 s
+Event 2000
+Elapsed time/1000 Event : 5.804518 s
+Event 3000
+Elapsed time/1000 Event : 2.610680 s
+Event 4000
+Elapsed time/1000 Event : 2.642234 s
+Event 5000
+Elapsed time/1000 Event : 2.846409 s
+Event 6000
+Elapsed time/1000 Event : 3.164791 s
+Event 7000
+Elapsed time/1000 Event : 4.455885 s
+Event 8000
+Elapsed time/1000 Event : 4.458311 s
+Event 9000
+Elapsed time/1000 Event : 3.773472 s
+Event 10000
+Elapsed time/1000 Event : 4.260057 s
+Event 11000
+Elapsed time/1000 Event : 4.633277 s
+Event 12000
+Elapsed time/1000 Event : 4.172489 s
+Event 13000
+Elapsed time/1000 Event : 12.107913 s
+Event 14000
+Elapsed time/1000 Event : 3.229792 s
+Event 15000
+Elapsed time/1000 Event : 4.455433 s
+Event 16000
+Elapsed time/1000 Event : 3.678809 s
+Event 17000
+Elapsed time/1000 Event : 3.143207 s
+Event 18000
+Elapsed time/1000 Event : 2.998129 s
+Event 19000
+Elapsed time/1000 Event : 3.724689 s
+Event 20000
+Elapsed time/1000 Event : 2.880953 s
+Event 21000
+Elapsed time/1000 Event : 3.533693 s
+Event 22000
+Elapsed time/1000 Event : 3.029155 s
+Event 23000
+Elapsed time/1000 Event : 2.954030 s
+Event 24000
+Elapsed time/1000 Event : 11.137713 s
+Event 25000
+Elapsed time/1000 Event : 2.843794 s
+Event 26000
+Elapsed time/1000 Event : 2.887851 s
+Event 27000
+Elapsed time/1000 Event : 3.157040 s
+Event 28000
+Elapsed time/1000 Event : 3.096165 s
+Event 29000
+Elapsed time/1000 Event : 3.689545 s
+Event 30000
+Elapsed time/1000 Event : 13.540560 s
+Event 31000
+Elapsed time/1000 Event : 3.495491 s
+Event 32000
+Elapsed time/1000 Event : 4.394499 s
+Event 33000
+Elapsed time/1000 Event : 4.810218 s
+Event 34000
+Elapsed time/1000 Event : 5.000936 s
+Event 35000
+Elapsed time/1000 Event : 4.574341 s
+Event 36000
+Elapsed time/1000 Event : 18.972012 s
+Event 37000
+Elapsed time/1000 Event : 2.565405 s
+Event 38000
+Elapsed time/1000 Event : 2.288274 s
+Event 39000
+Elapsed time/1000 Event : 2.919480 s
+Event 40000
+Elapsed time/1000 Event : 3.023224 s
+Event 41000
+Elapsed time/1000 Event : 2.744721 s
+Event 42000
+Elapsed time/1000 Event : 9.099518 s
+Event 43000
+Elapsed time/1000 Event : 3.116964 s
+Event 44000
+Elapsed time/1000 Event : 2.478688 s
+Event 45000
+Elapsed time/1000 Event : 2.751186 s
+Event 46000
+Elapsed time/1000 Event : 2.446620 s
+Event 47000
+Elapsed time/1000 Event : 6.684601 s
+Event 48000
+Elapsed time/1000 Event : 3.029863 s
+Event 49000
+Elapsed time/1000 Event : 3.803247 s
+Event 50000
+Elapsed time/1000 Event : 4.119244 s
+Event 51000
+Elapsed time/1000 Event : 3.304072 s
+Event 52000
+Elapsed time/1000 Event : 3.294192 s
+Event 53000
+Elapsed time/1000 Event : 53.913557 s
+Event 54000
+Elapsed time/1000 Event : 3.303576 s
+Event 55000
+Elapsed time/1000 Event : 2.759764 s
+Event 56000
+Elapsed time/1000 Event : 2.771254 s
+Event 57000
+Elapsed time/1000 Event : 2.943474 s
+Event 58000
+Elapsed time/1000 Event : 2.903867 s
+Event 59000
+Elapsed time/1000 Event : 52.297108 s
+Event 60000
+Elapsed time/1000 Event : 4.103798 s
+Event 61000
+Elapsed time/1000 Event : 4.061695 s
+Event 62000
+Elapsed time/1000 Event : 3.636293 s
+Event 63000
+Elapsed time/1000 Event : 2.751919 s
+Event 64000
+Elapsed time/1000 Event : 2.538915 s
+Event 65000
+Elapsed time/1000 Event : 38.593814 s
+Event 66000
+Elapsed time/1000 Event : 2.901100 s
+Event 67000
+Elapsed time/1000 Event : 2.570178 s
+Event 68000
+Elapsed time/1000 Event : 2.831911 s
+Event 69000
+Elapsed time/1000 Event : 3.553322 s
+Event 70000
+Elapsed time/1000 Event : 72.512959 s
+Event 71000
+Elapsed time/1000 Event : 2.491144 s
+Event 72000
+Elapsed time/1000 Event : 2.595367 s
+Event 73000
+Elapsed time/1000 Event : 2.692265 s
+Event 74000
+Elapsed time/1000 Event : 3.489391 s
+Event 75000
+Elapsed time/1000 Event : 3.630837 s
+Event 76000
+Elapsed time/1000 Event : 75.440622 s
+Event 77000
+Elapsed time/1000 Event : 3.049318 s
+Event 78000
+Elapsed time/1000 Event : 2.742358 s
+Event 79000
+Elapsed time/1000 Event : 3.452776 s
+Event 80000
+Elapsed time/1000 Event : 3.334039 s
+Event 81000
+Elapsed time/1000 Event : 3.130266 s
+Event 82000
+Elapsed time/1000 Event : 107.943745 s
+Event 83000
+Elapsed time/1000 Event : 3.204881 s
+Event 84000
+Elapsed time/1000 Event : 3.113922 s
+Event 85000
+Elapsed time/1000 Event : 3.927050 s
+Event 86000
+Elapsed time/1000 Event : 3.419025 s
+Event 87000
+Elapsed time/1000 Event : 113.662799 s
+Event 88000
+Elapsed time/1000 Event : 5.244199 s
+Event 89000
+Elapsed time/1000 Event : 5.822212 s
+Event 90000
+Elapsed time/1000 Event : 3.666369 s
+Event 91000
+Elapsed time/1000 Event : 4.202760 s
+Event 92000
+Elapsed time/1000 Event : 3.683792 s
+Event 93000
+Elapsed time/1000 Event : 50.833945 s
+Event 94000
+Elapsed time/1000 Event : 2.967671 s
+Event 95000
+Elapsed time/1000 Event : 5.527980 s
+Event 96000
+Elapsed time/1000 Event : 3.427203 s
+Event 97000
+Elapsed time/1000 Event : 2.943375 s
+Event 98000
+Elapsed time/1000 Event : 8.441891 s
+Event 99000
+Elapsed time/1000 Event : 213.733519 s
+Event 100000
+Elapsed time/1000 Event : 4.078948 s
+Event 101000
+Elapsed time/1000 Event : 3.407394 s
+Event 102000
+Elapsed time/1000 Event : 7.957188 s
+Event 103000
+Elapsed time/1000 Event : 2.978416 s
+Event 104000
+Elapsed time/1000 Event : 2.673275 s
+Event 105000
+Elapsed time/1000 Event : 236.880010 s
+Event 106000
+Elapsed time/1000 Event : 2.663782 s
+Event 107000
+Elapsed time/1000 Event : 2.742091 s
+Event 108000
+Elapsed time/1000 Event : 8.014202 s
+Event 109000
+Elapsed time/1000 Event : 3.132481 s
+Event 110000
+Elapsed time/1000 Event : 214.891528 s
+Event 111000
+Elapsed time/1000 Event : 4.562804 s
+Event 112000
+Elapsed time/1000 Event : 4.375028 s
+Event 113000
+Elapsed time/1000 Event : 4.192062 s
+Event 114000
+Elapsed time/1000 Event : 4.662184 s
+Event 115000
+Elapsed time/1000 Event : 4.187740 s
+Event 116000
+Elapsed time/1000 Event : 246.539150 s
+Event 117000
+Elapsed time/1000 Event : 2.032409 s
+Event 118000
+Elapsed time/1000 Event : 2.009139 s
+Event 119000
+Elapsed time/1000 Event : 3.066617 s
+Event 120000
+Elapsed time/1000 Event : 3.729620 s
+Event 121000
+Elapsed time/1000 Event : 3.391041 s
+Event 122000
+Elapsed time/1000 Event : 286.975084 s
+Event 123000
+Elapsed time/1000 Event : 2.522609 s
+Event 124000
+Elapsed time/1000 Event : 2.530051 s
+Event 125000
+Elapsed time/1000 Event : 2.865418 s
+Event 126000
+Elapsed time/1000 Event : 2.744645 s
+Event 127000
+Elapsed time/1000 Event : 2.637680 s
+Event 128000
+Elapsed time/1000 Event : 326.008690 s
+Event 129000
+Elapsed time/1000 Event : 3.967366 s
+Event 130000
+Elapsed time/1000 Event : 3.567355 s
+Event 131000
+Elapsed time/1000 Event : 3.665690 s
+Event 132000
+Elapsed time/1000 Event : 3.898350 s
+Event 133000
+Elapsed time/1000 Event : 350.681428 s
+Event 134000
+Elapsed time/1000 Event : 3.318837 s
+Event 135000
+Elapsed time/1000 Event : 2.229638 s
+Event 136000
+Elapsed time/1000 Event : 2.827904 s
+Event 137000
+Elapsed time/1000 Event : 2.952444 s
+Event 138000
+Elapsed time/1000 Event : 2.789452 s
+Event 139000
+Elapsed time/1000 Event : 294.174322 s
+Event 140000
+Elapsed time/1000 Event : 3.603384 s
+Event 141000
+Elapsed time/1000 Event : 4.123343 s
+Event 142000
+Elapsed time/1000 Event : 4.161052 s
+Event 143000
+Elapsed time/1000 Event : 4.067556 s
+Event 144000
+ElInfo in <TCanvas::Print>: pdf file /afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22/EtaCorrection/Cluster-track_dist.pdf has been created
+rm: cannot remove `/afs/cern.ch/work/q/qiwu/TB_Simulation_DESY/histo-clic/Run22/EtaCorrection/pyEudetNtuple_run22_EtaCorrection.root': No such file or directory
+
+Job finished at Thu Aug 13 05:05:24 CEST 2015 on node 
+ under linux version Scientific Linux CERN SLC release 6.7 (Carbon)
+
+CERN statistics: This process used approximately : 0:02:03 KSI2K hours (123 KSI2K seconds)
+                 This process corresponds to     : 0:08:03 HS06  hours (483 HS06  seconds)
+
+CERN report: Job Killed. See mail from LSF for messages and native time cpu usage.
